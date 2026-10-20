@@ -68,4 +68,7 @@ qualification, and synthetic examples are not manufacturer evidence or bench res
 also builds every app, runs `go vet`, and tests the command workflow.
 
 Source: [github.com/benarent/pcb-tools](https://github.com/benarent/pcb-tools).
-The Go module path is `github.com/benarent/pcb-tools`. No license has been assigned.
+The Go module path is `github.com/benarent/pcb-tools`. Licensed under the
+[MIT License](LICENSE).
+
+Agent guidance for maintaining and using these tools is in [AGENTS.md](AGENTS.md).
