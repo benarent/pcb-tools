@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "snapshot_paths": [
+    "board.kicad_pcb",
+    "review.json",
+    "manifest.txt",
+    "package.sh",
+    "footprints.json",
+    "mechanical.json",
+    "evidence.txt",
+    "README.md"
+  ],
+  "command": [
+    "bash",
+    "package.sh",
+    "release"
+  ],
+  "manifest": "manifest.txt",
+  "pcb": "board.kicad_pcb",
+  "review": "review.json",
+  "required_checks": [
+    "fixture"
+  ],
+  "extras": [
+    "README.md",
+    "checks/footprints.json",
+    "checks/mechanical.json"
+  ]
+}

@@ -1,0 +1,2 @@
+Synthetic fixture: J1 pad 1 is an oval 2 x 1 mm pad, 0.8 x 0.4 mm drill, at (10,10) mm.
+A 2 x 2 mm access envelope centered at (20,20) mm is clear. No real component or manufacturer approval.

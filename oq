@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -euo pipefail
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+tool="${1:?usage: oq APP arguments... (see README.md)}"
+shift
+case "$tool" in
+  oqreport|oqprecheck|oqvalidate|oqpart|oqcache|oqroundtrip|oqdiff|oqfootprint|oqmechanical|oqrelease|oqbench) ;;
+  *) printf 'Unknown app: %s\n' "$tool" >&2; exit 2 ;;
+esac
+mkdir -p "$ROOT/bin"
+tmp="$(mktemp -d "$ROOT/bin/.build.XXXXXX")"
+trap 'rm -rf "$tmp"' EXIT
+(cd "$ROOT" && go build -o "$tmp/$tool" "./cmd/$tool")
+mv "$tmp/$tool" "$ROOT/bin/$tool"
+# Keep caller's cwd: project paths must not resolve against this checkout.
+"$ROOT/bin/$tool" "$@"

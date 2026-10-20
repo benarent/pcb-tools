@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "board_serial": "SYNTHETIC-ONLY",
+  "pcb_sha256": "fe3c8a68ea0a29b15f144859ce2578bbdb5a83834798dd7fca3be72de9bd9f7d",
+  "firmware_sha256": "8f1da95f8a11eceb813e31fa3acfee0716a290a83a0b2a3891ba3ece8f85f889",
+  "measured_utc": "2020-01-01T00:00:00Z",
+  "instruments": [
+    "synthetic fixture, no physical measurement"
+  ],
+  "captures": [
+    {
+      "check": "signal",
+      "path": "capture.csv",
+      "sha256": "a06bd048b898468219b92ab0bf70546b2c733bc6e1338c839c0442ef51405337",
+      "unit": "V"
+    }
+  ]
+}

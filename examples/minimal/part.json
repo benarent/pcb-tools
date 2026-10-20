@@ -1,0 +1,17 @@
+{
+  "mpn": "SYNTHETIC-10K",
+  "package": "0603",
+  "pinout": {
+    "1": "A",
+    "2": "B"
+  },
+  "voltage_limits": {
+    "max_V": 25
+  },
+  "tolerance": "1%",
+  "temperature_rating": "-40 to 85 C",
+  "assembly_requirements": "synthetic SMT",
+  "attributes": {
+    "resistance": "10kohm"
+  }
+}

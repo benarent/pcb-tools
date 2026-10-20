@@ -1,0 +1,9 @@
+{
+  "paths": [
+    "board.kicad_pcb",
+    "package.sh"
+  ],
+  "values": {
+    "fixture": "1"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "status": "reviewed",
+  "tolerance_mm": 0.001,
+  "footprints": [
+    {
+      "ref": "J1",
+      "pad_count": 1,
+      "evidence": [
+        {
+          "path": "evidence.txt",
+          "sha256": "1586caadc9ff8e76a8ae877c25126927691208f1b71b519f0fbe444078609c62",
+          "revision": "synthetic-1",
+          "basis": "Synthetic parser and workflow test only; no hardware approval."
+        }
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "count": 1,
+          "kind": "thru_hole",
+          "shape": "oval",
+          "net": "GND",
+          "size": {
+            "x": 2,
+            "y": 1
+          },
+          "drill": {
+            "x": 0.8,
+            "y": 0.4
+          }
+        }
+      ]
+    }
+  ]
+}

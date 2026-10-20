@@ -1,0 +1,4 @@
+Synthetic test fixture only
+SHA-256
+fe3c8a68ea0a29b15f144859ce2578bbdb5a83834798dd7fca3be72de9bd9f7d  board.kicad_pcb
+e4a003e0342f2952a389f3a4d71c37b2ef66429fc05f2b3c2bef84b0b4faa381  review.json

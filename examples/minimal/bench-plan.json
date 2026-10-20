@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "title": "Synthetic bench ingestion",
+  "checks": [
+    {
+      "id": "signal",
+      "requirement": "Synthetic ingestion only, no real acceptance threshold",
+      "procedure": "Use the synthetic capture.csv fixture.",
+      "unit": "V",
+      "column": "signal",
+      "statistic": "mean",
+      "min_samples": 4
+    }
+  ]
+}

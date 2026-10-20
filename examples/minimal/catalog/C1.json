@@ -1,0 +1,9 @@
+{
+  "lcsc_id": "C1",
+  "name": "SYNTHETIC-10K",
+  "package": "0603",
+  "manufacturer": "TEST ONLY",
+  "library_type": "basic",
+  "stock": 100,
+  "price": 0.01
+}

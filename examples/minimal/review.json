@@ -1,0 +1,9 @@
+{
+  "pcb_sha256": "fe3c8a68ea0a29b15f144859ce2578bbdb5a83834798dd7fca3be72de9bd9f7d",
+  "checks": {
+    "fixture": {
+      "status": "verified",
+      "evidence": "Synthetic fixture plumbing only, not engineering approval. See README.md."
+    }
+  }
+}
